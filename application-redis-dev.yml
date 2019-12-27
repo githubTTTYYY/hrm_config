@@ -1,0 +1,6 @@
+server:
+  port: 9003
+hrm:
+ redis:
+   host: 127.0.0.1
+   prot: 6379
