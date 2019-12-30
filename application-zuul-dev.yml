@@ -15,3 +15,16 @@ zuul:
     course:
       path: /course/**
       serviceId: COURSE-SERVICE
+    file:
+      path: /file/**
+      serviceId: FILE-SERVICE
+hystrix:
+  command:
+    course-service:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+ribbon:
+  ReadTimeout: 5000
+  SocketTimeout: 5000
