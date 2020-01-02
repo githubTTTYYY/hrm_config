@@ -1,5 +1,5 @@
 server:
-  prot:9005
+   prot: 9005
 spring:
   data:
     elasticsearch:
