@@ -18,6 +18,9 @@ zuul:
     file:
       path: /file/**
       serviceId: FILE-SERVICE
+    es:
+      path: /es/**
+      serviceId: ES-SERVICE
 hystrix:
   command:
     course-service:
