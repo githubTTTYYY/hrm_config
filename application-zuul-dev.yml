@@ -21,6 +21,9 @@ zuul:
     es:
       path: /es/**
       serviceId: ES-SERVICE
+    user:
+      path: /user/**
+      serviceId: USER-SERVICE
 hystrix:
   command:
     course-service:
